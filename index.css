@@ -123,20 +123,22 @@
         footer{
         background-color: rgb(120, 110, 111);
         width: 100%;
-        padding: 1em 1 em;
-        font-size: 18px;
+        padding: 4em 4em;
+        font-size: 16px;
         line-height: 1.5em;
         font-family: 'Raleway', sans-serif;
+        list-style-type: none;
         color: aliceblue;
-       list-style-type: none;
-       text-decoration: none;
        text-align: center;
+       text-decoration: none;
         }
     
+        div li{
+            list-style-type: none;
+        }
         .redes{
             text-align: center;
             display: inline;
-            text-decoration: none;
         }
     
         article{
@@ -279,10 +281,10 @@
         
     }
     
-    .viñetas {
+    /* .viñetas {
         padding: 0;
     
-    }
+    } */
     
     
     
