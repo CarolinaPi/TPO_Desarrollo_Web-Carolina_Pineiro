@@ -272,7 +272,6 @@
         #barra li a{
             text-decoration: none;
             display: block;
-            /* background: rgb(233, 231, 223); */
             color:rgb(70, 68, 68);
             text-align: center;
             line-height: 2em;
@@ -383,10 +382,10 @@
     
     }
     
-    
+/*     
     /* Estilo página CONTACTO*/
     
-    .contacto{
+    /* .contacto{
        margin-top: 5%;
        margin-left: 2em;
        font-size: 20px;
@@ -396,4 +395,4 @@
     .ulcontacto{
         margin-left: 4em;
         list-style-type: none;
-    }
+    } */ 
