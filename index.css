@@ -27,7 +27,22 @@ header {
 .encabezado {
   line-height: 1.5em;
   text-align: center;
+  
+    animation-duration: 4s;
+    animation-name: slidein;
 }
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+
 body {
   background-color: #ffffff;
   line-height: 1.5em;
