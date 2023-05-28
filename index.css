@@ -15,11 +15,13 @@ header {
 .img-relative {
   max-width: 100%;
   height: auto;
+  border-radius: 2%;
 }
 
 .logo {
   margin: 0.2em;
   border-radius: 20%;
+ 
 }
 
 .encabezado {
@@ -43,6 +45,8 @@ body {
   margin-top: 2em;
   padding: 1.5em;
 }
+
+
 h1 {
   text-align: center;
 }
@@ -109,11 +113,6 @@ p {
   padding: 0.5em;
 }
 
-iframe {
-  width: 100%;
-  margin-top: 4em;
-  margin-bottom: 3em;
-}
 
 section {
   padding: 1em;
@@ -137,6 +136,7 @@ iframe{
     padding-left: 2em;
     padding-bottom: 1em;
 }
+
 footer {
   background-color: rgb(120, 110, 111);
   width: 100%;
@@ -229,7 +229,10 @@ article {
   .formulario-grupal {
     padding: 0;
   }
+
 }
+
+  
 
 @media screen and (max-width: 949px) {
   nav {
@@ -350,10 +353,15 @@ article {
     line-height: 2em;
   }
 
-  #logo {
+  .logo {
     display: flex;
     flex-direction: row;
     text-align: left;
+    margin-top: -0.5em;
+    margin-bottom: 0.5em;
+    margin-left: 0.5em;
+  ;
+
   }
   nav {
     margin-top: 0%;
@@ -369,23 +377,8 @@ article {
     justify-content: space-evenly;
   }
 
-  .keep-calm {
+  /* .keep-calm {
     margin-top: 3em;
     padding: 3em 2em;
-  }
+  } */
 }
-
-/*     
-    /* Estilo página CONTACTO*/
-
-/* .contacto{
-       margin-top: 5%;
-       margin-left: 2em;
-       font-size: 20px;
-    
-    }
-    
-    .ulcontacto{
-        margin-left: 4em;
-        list-style-type: none;
-    } */
