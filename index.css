@@ -131,7 +131,7 @@ iframe{
 
 .calendario { 
 
-    background-color: aquamarine;
+    background-color: #B5838D;
     padding-top: 2em;
     padding-left: 2em;
     padding-bottom: 1em;
@@ -166,7 +166,7 @@ article {
 .formulario {
   border: 2px solid rgb(105, 139, 138);
   background-color: rgb(213, 230, 224);
-  color: grey;
+  color: #FFB4A2;
   padding: 1rem 1rem;
   margin-bottom: 2em;
   width: 60%px;
@@ -377,8 +377,4 @@ article {
     justify-content: space-evenly;
   }
 
-  /* .keep-calm {
-    margin-top: 3em;
-    padding: 3em 2em;
-  } */
 }
