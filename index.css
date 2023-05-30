@@ -142,6 +142,7 @@ section {
 iframe{
     display: flex;
      width: 60%;
+     border-radius: 3%;
 }
 
 .calendario { 
@@ -184,9 +185,10 @@ article {
   color: #FFB4A2;
   padding: 1rem 1rem;
   margin-bottom: 2em;
-  width: 60%px;
+  width: 80%;
   border-radius: 25px;
   box-shadow: 3px 2px 5px;
+  text-align: center;
 }
 .formulario-grupal {
   margin-bottom: 1rem;
