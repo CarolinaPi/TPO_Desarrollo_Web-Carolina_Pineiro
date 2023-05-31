@@ -43,7 +43,6 @@ header {
   }
 }
 
-
 body {
   background-color: #ffffff;
   line-height: 1.5em;
@@ -234,7 +233,7 @@ article {
   }
   .formulario {
     border: 2px solid rgb(164, 192, 191);
-    background-color: rgb(138, 163, 155);
+    background-color: rgb(213, 230, 224);
     color: grey;
     width: 90%;
     text-align: center;
@@ -392,19 +391,28 @@ article {
 }
 
 /* ----------------CONTACTO------------------ */
-.reservas{
+.reservas {
   padding-top: 2em;
   text-align: center;
 }
 
+.cardContacto {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 2em;
+}
+
 /* Tarjeta Ubicación */
 .ubicacion {
-  /* width: 300px; */
   border: 1px solid rgb(211, 183, 183);
   border-radius: 10px;
   box-shadow: 0 0 3;
   background-color: #ffb4a2;
-  max-width: 300px;
+  max-width: 350px;
+  min-width: 150px;
+  height: 100 px;
 }
 .ubicacion h3 {
   font-size: 1.5em;
@@ -420,12 +428,13 @@ article {
 
 /* Tarjeta contacto */
 .contacto {
-  /* width: 300px; */
   border: 1px solid rgb(211, 183, 183);
   border-radius: 10px;
   box-shadow: 0 0 3;
   background-color: #ffb4a2;
-  max-width: 300px;
+  max-width: 350px;
+  min-width: 150px;
+  height: 100 px;
 }
 .contacto h3 {
   font-size: 1.5em;
@@ -441,13 +450,14 @@ article {
 
 /* Tarjeta email */
 .mail {
-  /* width: 300px; */
   border: 1px solid rgb(211, 183, 183);
   border-radius: 10px;
   box-shadow: 0 0 3;
   background-color: #ffb4a2;
-  max-width: 300px;
-  word-break: break-all
+  height: 100 px;
+  min-width: 150px;
+  max-width: 350px;
+  word-break: break-all;
 }
 .mail h3 {
   font-size: 1.5em;
@@ -461,23 +471,16 @@ article {
   padding: 1em;
 }
 
-.grid-container{
-  display: grid;
-grid-gap: 10px;
-grid-template-columns: auto auto auto;
-
-}
-
-@media screen and (max-width: 479px){
+/* @media screen and (max-width: 479px){
   .grid-container{
     display: flex;
     flex-direction: column;
   grid-gap: 10px;
-  grid-template-columns: auto auto 33%;
+  grid-template-columns: auto auto auto;
   
   }
-}
+} */
 
-.mapa{
+.mapa {
   width: 100%;
 }
