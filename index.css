@@ -311,6 +311,70 @@ article {
   text-align: center;
 }
 
+/* Tarjeta Ubicación */
+.ubicacion{
+  width: 300px;
+  border: 1px solid rgb(211, 183, 183);
+  border-radius: 10px;
+  box-shadow: 0 0 3;
+  background-color: #FFB4A2;
+ 
+}
+.ubicacion h3{
+  font-size: 1.5em;
+  text-align: center;
+}
+.ubicacion img{
+  width: 100%;
+  padding: 2em;
+}
+.textoCard{
+  padding: 1em;
+}
+
+/* Tarjeta contacto */
+.contacto{
+  width: 300px;
+  border: 1px solid rgb(211, 183, 183);
+  border-radius: 10px;
+  box-shadow: 0 0 3;
+  background-color: #FFB4A2;
+ 
+}
+.contacto h3{
+  font-size: 1.5em;
+  text-align: center;
+}
+.contacto img{
+  width: 100%;
+  padding: 2em;
+}
+.textoCard{
+  padding: 1em;
+}
+
+/* Tarjeta email */
+.mail{
+  width: 300px;
+  border: 1px solid rgb(211, 183, 183);
+  border-radius: 10px;
+  box-shadow: 0 0 3;
+  background-color: #FFB4A2;
+ 
+}
+.mail h3{
+  font-size: 1.5em;
+  text-align: center;
+}
+.mail img{
+  width: 100%;
+  padding: 2em;
+}
+.textoCard{
+  padding: 1em;
+  text-align: justify;
+}
+
 @media screen and (min-width: 480px) and (max-width: 949px) {
   #dos {
     display: flex;
