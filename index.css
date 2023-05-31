@@ -21,20 +21,20 @@ header {
 .logo {
   margin: 0.2em;
   border-radius: 20%;
- 
 }
 
+/* Animación */
 .encabezado {
   line-height: 1.5em;
   text-align: center;
-  
-    animation-duration: 4s;
-    animation-name: slidein;
+
+  animation-duration: 4s;
+  animation-name: slidein;
 }
 @keyframes slidein {
   from {
     margin-left: 100%;
-    width: 300%
+    width: 300%;
   }
 
   to {
@@ -42,6 +42,7 @@ header {
     width: 100%;
   }
 }
+
 
 body {
   background-color: #ffffff;
@@ -60,7 +61,6 @@ body {
   margin-top: 2em;
   padding: 1.5em;
 }
-
 
 h1 {
   text-align: center;
@@ -128,7 +128,6 @@ p {
   padding: 0.5em;
 }
 
-
 section {
   padding: 1em;
   margin: 1em;
@@ -139,18 +138,17 @@ section {
   list-style-type: lower-alpha;
 }
 
-iframe{
-    display: flex;
-     width: 60%;
-     border-radius: 2%;
-}
+/* iframe {
+  display: flex;
+  width: 60%;
+  border-radius: 2%;
+} */
 
-.calendario { 
-
-    background-color: #B5838D;
-    padding-top: 2em;
-    padding-left: 2em;
-    padding-bottom: 1em;
+.calendario {
+  background-color: #b5838d;
+  padding-top: 2em;
+  padding-left: 2em;
+  padding-bottom: 1em;
 }
 
 footer {
@@ -182,7 +180,7 @@ article {
 .formulario {
   border: 2px solid rgb(105, 139, 138);
   background-color: rgb(213, 230, 224);
-  color: #FFB4A2;
+  color: #ffb4a2;
   padding: 1rem 1rem;
   margin-bottom: 2em;
   border-radius: 25px;
@@ -245,9 +243,7 @@ article {
   .formulario-grupal {
     padding: 0;
   }
-  
 }
-
 
 @media screen and (max-width: 949px) {
   nav {
@@ -309,70 +305,6 @@ article {
 
 .enviar {
   text-align: center;
-}
-
-/* Tarjeta Ubicación */
-.ubicacion{
-  width: 300px;
-  border: 1px solid rgb(211, 183, 183);
-  border-radius: 10px;
-  box-shadow: 0 0 3;
-  background-color: #FFB4A2;
- 
-}
-.ubicacion h3{
-  font-size: 1.5em;
-  text-align: center;
-}
-.ubicacion img{
-  width: 100%;
-  padding: 2em;
-}
-.textoCard{
-  padding: 1em;
-}
-
-/* Tarjeta contacto */
-.contacto{
-  width: 300px;
-  border: 1px solid rgb(211, 183, 183);
-  border-radius: 10px;
-  box-shadow: 0 0 3;
-  background-color: #FFB4A2;
- 
-}
-.contacto h3{
-  font-size: 1.5em;
-  text-align: center;
-}
-.contacto img{
-  width: 100%;
-  padding: 2em;
-}
-.textoCard{
-  padding: 1em;
-}
-
-/* Tarjeta email */
-.mail{
-  width: 300px;
-  border: 1px solid rgb(211, 183, 183);
-  border-radius: 10px;
-  box-shadow: 0 0 3;
-  background-color: #FFB4A2;
- 
-}
-.mail h3{
-  font-size: 1.5em;
-  text-align: center;
-}
-.mail img{
-  width: 100%;
-  padding: 2em;
-}
-.textoCard{
-  padding: 1em;
-  text-align: justify;
 }
 
 @media screen and (min-width: 480px) and (max-width: 949px) {
@@ -443,8 +375,6 @@ article {
     margin-top: -0.5em;
     margin-bottom: 0.5em;
     margin-left: 0.5em;
-  ;
-
   }
   nav {
     margin-top: 0%;
@@ -459,5 +389,95 @@ article {
     flex-direction: row;
     justify-content: space-evenly;
   }
+}
 
+/* ----------------CONTACTO------------------ */
+.reservas{
+  padding-top: 2em;
+  text-align: center;
+}
+
+/* Tarjeta Ubicación */
+.ubicacion {
+  /* width: 300px; */
+  border: 1px solid rgb(211, 183, 183);
+  border-radius: 10px;
+  box-shadow: 0 0 3;
+  background-color: #ffb4a2;
+  max-width: 300px;
+}
+.ubicacion h3 {
+  font-size: 1.5em;
+  text-align: center;
+}
+.ubicacion img {
+  width: 100%;
+  padding: 2em;
+}
+.textoCard {
+  padding: 1em;
+}
+
+/* Tarjeta contacto */
+.contacto {
+  /* width: 300px; */
+  border: 1px solid rgb(211, 183, 183);
+  border-radius: 10px;
+  box-shadow: 0 0 3;
+  background-color: #ffb4a2;
+  max-width: 300px;
+}
+.contacto h3 {
+  font-size: 1.5em;
+  text-align: center;
+}
+.contacto img {
+  width: 100%;
+  padding: 2em;
+}
+.textoCard {
+  padding: 1em;
+}
+
+/* Tarjeta email */
+.mail {
+  /* width: 300px; */
+  border: 1px solid rgb(211, 183, 183);
+  border-radius: 10px;
+  box-shadow: 0 0 3;
+  background-color: #ffb4a2;
+  max-width: 300px;
+  word-break: break-all
+}
+.mail h3 {
+  font-size: 1.5em;
+  text-align: center;
+}
+.mail img {
+  width: 100%;
+  padding: 2em;
+}
+.textoCard {
+  padding: 1em;
+}
+
+.grid-container{
+  display: grid;
+grid-gap: 10px;
+grid-template-columns: auto auto auto;
+
+}
+
+@media screen and (max-width: 479px){
+  .grid-container{
+    display: flex;
+    flex-direction: column;
+  grid-gap: 10px;
+  grid-template-columns: auto auto 33%;
+  
+  }
+}
+
+.mapa{
+  width: 100%;
 }
