@@ -487,8 +487,9 @@ article {
 /*-------------RESERVAS----------------*/
 
 .api {
+  margin-left: 3%;
   background-color: #d4bcb6;
-  width: 96vw;
+  width: 90vw;
   text-align: center;
   padding: 2em;
 }
