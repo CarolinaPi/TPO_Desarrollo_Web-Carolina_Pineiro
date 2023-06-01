@@ -486,39 +486,14 @@ article {
 
 /*-------------RESERVAS----------------*/
 
-.clima {
-  background-color: #dfc6cb;
-  /* padding-left: 2em;
-  padding-right: 2em;
-  display: grid;
-  grid-template-columns: auto auto;
-  grid-auto-rows: minmax(auto, auto);
-  gap: 2em; */
-  display: flex;
-  flex-wrap: wrap;
-
-}
-
 .api {
-  border: 1px solid rgb(211, 183, 183);
-  border-radius: 10px;
-  box-shadow: 0 0 3;
   background-color: #d4bcb6;
-  max-width: 350px;
-  min-width: 150px;
-  height: 100 px;
-  padding-bottom: 1em;
+  width: 96vw;
+  text-align: center;
+  padding: 2em;
 }
 .api h3 {
   font-size: 1.5em;
   text-align: center;
 }
-.api img {
-  width: 60%;
-  padding: 2em;
-  margin-left: 3em;
-}
 
-.face{
-  padding-bottom: 3em;
-}
