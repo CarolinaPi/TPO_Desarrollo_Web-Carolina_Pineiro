@@ -63,10 +63,12 @@ body {
 
 h1 {
   text-align: center;
+  color: #A14A76;
 }
 
 h2 {
   margin-bottom: 1em;
+  color: #A14A76;
 }
 
 h3 {
@@ -91,9 +93,12 @@ p {
   text-align: center;
 }
 
+
+/* -----------index------------- */
 #dos {
   border: 1px solid rgb(224, 164, 177);
-  background-color: rgb(226, 178, 188);
+  background-color: #b5838d;
+  ;
   padding: 20px;
   flex-flow: row wrap;
   margin: 0 auto;
@@ -122,6 +127,8 @@ p {
   color: rgb(99, 98, 98);
 }
 
+/* ----------------Servicios------------------- */
+
 #tres {
   margin-top: 1.5em;
   padding: 0.5em;
@@ -138,12 +145,7 @@ section {
 }
 
 
-.calendario {
-  background-color: #b5838d;
-  padding-top: 2em;
-  padding-left: 2em;
-  padding-bottom: 1em;
-}
+
 
 footer {
   background-color: rgb(120, 110, 111);
@@ -171,14 +173,20 @@ article {
   padding: 1.5em;
 }
 
+.form{
+  padding-left: 10%;
+}
+
 .formulario {
-  border: 2px solid rgb(105, 139, 138);
-  background-color: rgb(213, 230, 224);
-  color: #ffb4a2;
+  border: 2px solid #ce9fae;
+  background-color: #fad5e1;
+  color: #7c7877;
   padding: 1rem 1rem;
   margin-bottom: 2em;
   border-radius: 25px;
   box-shadow: 3px 2px 5px;
+  width: 80vw;
+  
 }
 
 .formulario-grupal {
@@ -477,7 +485,40 @@ article {
 
 
 /*-------------RESERVAS----------------*/
-.calendar {
-  width: 35vw;
 
+.clima {
+  background-color: #dfc6cb;
+  /* padding-left: 2em;
+  padding-right: 2em;
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-auto-rows: minmax(auto, auto);
+  gap: 2em; */
+  display: flex;
+  flex-wrap: wrap;
+
+}
+
+.api {
+  border: 1px solid rgb(211, 183, 183);
+  border-radius: 10px;
+  box-shadow: 0 0 3;
+  background-color: #d4bcb6;
+  max-width: 350px;
+  min-width: 150px;
+  height: 100 px;
+  padding-bottom: 1em;
+}
+.api h3 {
+  font-size: 1.5em;
+  text-align: center;
+}
+.api img {
+  width: 60%;
+  padding: 2em;
+  margin-left: 3em;
+}
+
+.face{
+  padding-bottom: 3em;
 }

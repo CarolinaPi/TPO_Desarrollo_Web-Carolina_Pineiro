@@ -81,5 +81,3 @@ function validarPassword(password) {
     }
 }
 
-
-//Api Rest: https://openweathermap.org/api
